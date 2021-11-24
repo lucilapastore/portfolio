@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+img.firstIcon {
+    /*display: block; */
+    height: 60px;
+    width: 60px;
+    /*margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 48%; */
+    
+}
+h1.titleStyle {
+    color: #05668dff;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+nav.mainMenu {
+    background-color: #05668dff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;    
+}
+
+ ul li a {
+    color: #f0f3bdff;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #f0f3bdff;
+    font-weight: bold;
+    text-decoration: none;
+    list-style-type: none; 
+    flex-wrap: nowrap;
+    padding: 25px;
+    margin: 0;
+    border: 0;
+}
+
+img.firstImage {
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+
+section.firstSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.personalPresentation {
+    display: block;
+    /* a este contenedor agregarle display: flex*/
+}
+.borderBold {
+    border: solid 2px black;
+    padding: 5px;
+    margin: 25px;
+    overflow: hidden;
+}
+img.selfie {
+    width: 200px;
+    height: 100px;
+    display: inline;
+    border-radius: 50%;
+}
+
+.textoPresentacion {
+    color: #028090ff;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.6;
+    display: inline;
+    float: right;
+}
+
+footer.footerSection {
+    background-color: #00a896ff;
+    color: #f0f3bdff;
+    border: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerText {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerSocialMedia {
+    border: solid 2px black;
+    display: flex;
+    
+}
+
+.socialMedia {
+    background-color: #02c39aff;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    /*display: inline; */
+    flex-direction: row;
+    
+}
+
+/*
+Paleta de colores que voy a utilizar
+Temática: Mar;
+https://coolors.co/palettes/trending
+
+--blue-sapphire: #05668dff;
+--metallic-seaweed: #028090ff;
+--persian-green: #00a896ff;
+--mountain-meadow: #02c39aff;
+--pale-spring-bud: #f0f3bdff;
+*/
+
+/* Service's page */
+
+.main-table {
+    border-style: solid;
+}
+
+/* Contact Me Page */
+
+.main-container {
+    background-color: #f0f3bdff;
+}
+.form-container {
+    background-color: #fff;
+    border: 1 px solid #c7c7c7;
+    margin: auto;
+    display: block;
+    width: 380px;
+    height: 658px;
+    padding: 30px;
+    margin: 0, 171.333px;
+}
